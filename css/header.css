@@ -1,5 +1,4 @@
-/* Header Syles */
-
+/* Header Styles */
 .header-wrapper {
   width: 100%;
   height: auto;
@@ -9,7 +8,7 @@ header {
   position: fixed;
   width: var(--ls-full);
   height: auto;
-  padding: 1.74rem 0;
+  padding: 1.75rem 0;
   z-index: 15;
 }
 
@@ -76,7 +75,6 @@ header .info li.sns ul {
 header .info li.sns li a {
   width: 20px;
 }
-
 header .info li.sns li a img {
   width: 100%;
 }
@@ -127,7 +125,7 @@ header .mobile-btn span.bar-line {
   background: var(--color-gray-3);
   position: relative;
   margin: auto;
-  border-radius: 1px;
+  border-radius: 2px;
 }
 
 header .mobile-btn span.bar-line:nth-child(2) {

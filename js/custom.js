@@ -1,6 +1,6 @@
 /** Scroll Reveal Effect **/
 const sr = ScrollReveal({
-  reset: false, //스크롤 시 한번만 실행
+  reset: false, // 스크롤 시 한번만 실행
 });
 
 sr.reveal('.landing-text-box', {
@@ -21,3 +21,23 @@ sr.reveal('.meet-wrapper img, .feature', {
   distance: '40px',
   interval: 200, // 0.2초 간격으로 차례로 효과 진행
 });
+
+/** Swiper Slider Effect **/
+setTimeout(() => {
+  const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    loop: true,
+
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+}, 300);

@@ -12,8 +12,7 @@ const stickyHeader = () => {
 
 window.addEventListener('scroll', stickyHeader);
 
-/* Menu Elements Clone For Mobile */
-
+/** Menu Elements Clone For Mobile **/
 const mobileMenus = document.querySelector('.mobile-menus');
 const navs = document.querySelector('.nav-lists').cloneNode(true);
 const info = document.querySelector('.info').cloneNode(true);
@@ -21,7 +20,7 @@ const info = document.querySelector('.info').cloneNode(true);
 mobileMenus.appendChild(navs);
 mobileMenus.appendChild(info);
 
-/** Movile Menu Toggle **/
+/** Mobile Menu Toggle **/
 const mobileBtn = document.querySelector('.mobile-btn');
 const menuHeight = mobileMenus.scrollHeight;
 
